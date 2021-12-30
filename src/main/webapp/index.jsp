@@ -2,12 +2,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>HOUSE RENTAL SYSTEM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="front.css">
+
 </head>
+
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<div class="header">
+    <h1>UiTM JASIN NON-RESIDENT HOUSE RENTAL SYSTEM</h1>
+</div>
+
+
+<div class="column">
+    <div class="container">
+        <a href="listBooking.html">
+            <h3>STUDENT</h3>
+        </a>
+    </div>
+</div>
+
+
+<div class="column">
+    <div class="container1">
+        <a href="#">
+            <h3>LECTURER</h3>
+        </a>
+    </div>
+</div>
+
+<div class="column">
+    <div class="container2">
+        <a href="#">
+            <h3>ADMIN</h3>
+        </a>
+    </div>
+</div>
+
 </body>
 </html>
