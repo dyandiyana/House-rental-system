@@ -17,7 +17,7 @@
 
 <div class="column">
     <div class="container">
-        <a href="listBooking.html">
+        <a href="listBooking.jsp">
             <h3>STUDENT</h3>
         </a>
     </div>
