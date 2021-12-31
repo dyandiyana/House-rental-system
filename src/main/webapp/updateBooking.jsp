@@ -20,14 +20,14 @@
     <p>UiTM JASIN NON-RESIDENT HOUSE RENTAL SYSTEM</p>
     <a href="#">LOGOUT</a>
     <a href="#">PROFILE</a>
-    <a href="listPayment.html">PAYMENT</a>
+    <a href="listPayment.jsp">PAYMENT</a>
     <div class="dropdown">
         <button class="dropbtn" >BOOKING
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
             <a href="#">BOOKING FORM</a>
-            <a href="#">LIST BOOKING</a>
+            <a href="listBooking.jsp">LIST BOOKING</a>
         </div>
     </div>
     <a href="#" >HOME</a>
@@ -115,7 +115,7 @@
                 <input type="text" name="ApproveDate" placeholder="approveDate" value="None" disabled>
             </div>
         </div>
-        <button type="submit" class="button button1" name="submit" ><a href ="[L] ViewProfile.html">Submit</a></button><br><br>
+        <button type="submit" class="button button1" name="submit" ><a href ="#">Submit</a></button><br><br>
     </div>
 </form>
 </body>

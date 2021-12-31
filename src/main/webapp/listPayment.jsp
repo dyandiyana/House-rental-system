@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: TOSHIBA
   Date: 31/12/2021
-  Time: 2:38 AM
+  Time: 10:29 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,7 +11,7 @@
 <head>
     <title>HOUSE RENTAL SYSTEM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="listBooking.css">
+    <link rel="stylesheet" href="listPayment.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 
@@ -20,33 +20,31 @@
     <p>UiTM JASIN NON-RESIDENT HOUSE RENTAL SYSTEM</p>
     <a href="#">LOGOUT</a>
     <a href="#">PROFILE</a>
-    <a href="listPayment.html">PAYMENT</a>
+    <a href="listPayment.jsp"class="active">PAYMENT</a>
     <div class="dropdown">
-        <button class="dropbtn" >BOOKING
+        <button class="dropbtn">BOOKING
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
             <a href="#">BOOKING FORM</a>
-            <a href="#"class="active">LIST BOOKING</a>
+            <a href="listBooking.jsp">LIST BOOKING</a>
         </div>
     </div>
-    <a href="#" >HOME</a>
+    <a href="#">HOME</a>
 </div>
 
 <div class="container">
     <table id = "myTable">
-        <h3>LIST OF BOOKING</h3>
+        <h3>LIST OF PAYMENT</h3>
         <tr>
             <th class="hello">NO.</th>
             <th>BOOKING ID</th>
-            <th>TENANT NAME</th>
-            <th>HOUSE NAME</th>
-            <th>TIME</th>
-            <th>DATE</th>
-            <th>DEPOSIT</th>
-            <th>AGREEMENT </th>
-            <th>APPROVAL DATE</th>
-            <th>ACTION</th>
+            <th>HOUSE ID</th>
+            <th>DUE DATE</th>
+            <th>TOTAL PRICE</th>
+            <th>STATUS</th>
+            <th>RECEIPT</th>
+            <th>DATE PAYMENT</th>
         </tr>
 
         <tr>
@@ -56,14 +54,15 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td><button type="submit" class="button button1" name="submit" ><a href ="updateBooking.jsp">Update</a></button><br><br>
-                <button type="submit" class="button button1" name="submit" ><a href ="#">Delete</a></button><br><br>
+            <td><button type="submit" class="button button1" name="submit" ><a href ="viewPayment.jsp">Pay now</a></button><br><br></td>
+            <td>
             </td>
         </tr>
     </table>
 </div>
+
+
+
+
 </body>
 </html>
