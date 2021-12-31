@@ -10,7 +10,7 @@
 
 <html>
 <head>
-    <title>lIST LANDLORD</title>
+    <title>landlord List</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="admin-listlandlord.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
