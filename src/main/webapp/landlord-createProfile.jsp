@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: wala wala
   Date: 1/2/2022
-  Time: 12:06 AM
+  Time: 4:16 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,7 +11,7 @@
 <head>
     <title>HOUSE RENTAL SYSTEM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tenant-createProfile.css">
+    <link rel="stylesheet" href="landlord-createProfile.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 
@@ -24,8 +24,8 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="tenant-createProfile.jsp"class="active">CREATE ACCOUNT</a>
-            <a href="tenant-viewProfile.jsp">VIEW ACCOUNT</a>
+            <a href="landlord-createProfile.jsp"class="active">CREATE ACCOUNT</a>
+            <a href="landlord-viewProfile.jsp">VIEW ACCOUNT</a>
         </div>
     </div>
     <a href="tenant-listPayment.jsp">PAYMENT</a>
@@ -34,8 +34,8 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="tenant-createBooking.jsp">BOOKING FORM</a>
-            <a href="tenant-listBooking.jsp">LIST BOOKING</a>
+            <a href="#">BOOKING FORM</a>
+            <a href="#">LIST BOOKING</a>
         </div>
     </div>
 </div>
@@ -104,7 +104,7 @@
             </div>
         </div>
 
-        <button type="submit" class="button button1" name="submit" ><a href ="tenant-viewProfile.jsp">Submit</a></button><br><br>
+        <button type="submit" class="button button1" name="submit" ><a href ="landlord-viewProfile.jsp">Submit</a></button><br><br>
     </div>
 </form>
 <body>
