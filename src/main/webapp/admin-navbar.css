@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body,h1,h2,h3,h4,h5,h6
+{
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+}
+
 .navbar {
     overflow: hidden;
     background-color: white;
@@ -40,6 +45,12 @@
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #116269;
 }
+
+.navbar .fa-sign-out:hover, .fa-user:hover  {
+    background-color: #116269;
+    color: white;
+}
+
 .navbar a.active {
     background-color: #666;
     color: white;
