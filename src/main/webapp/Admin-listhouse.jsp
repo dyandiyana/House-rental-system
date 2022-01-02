@@ -20,11 +20,11 @@
 
 <div class="search " style="width:60%">
 
-  <div class="w3-bar" style="background-color: #116269">
-    <button class="w3-bar-item style="background-color: #116269" " ><i class="fa fa-home w3-margin-right"></i>Rent House</button>
+  <div class="w3-bar" style="background-color: #116269;border-radius: 5px 5px 0px 0px;">
+    <button class="w3-bar-item"  style="background-color: #116269" ><i class="fa fa-home w3-margin-right"></i>Rent House</button>
   </div>
 
-  <div class="w3-container w3-white w3-padding-16">
+  <div class="w3-container w3-white w3-padding-16" style="border-radius: 0px 0px 5px 5px;">
 
     <div style="margin-top:-20px;">
       <h3>Book house with us</h3>
