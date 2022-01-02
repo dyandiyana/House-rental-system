@@ -20,7 +20,7 @@
 
 <div class="search " style="width:60%">
 
-  <div class="w3-bar w3-black">
+  <div class="w3-bar" style="background-color: #116269">
     <button class="w3-bar-item w3-black " ><i class="fa fa-home w3-margin-right"></i>Rent House</button>
   </div>
 
