@@ -13,7 +13,7 @@
 
 <body >
 
-
+<%@include file="admin-navbar.html"%>
 
 <!-- Search -->
 
@@ -21,7 +21,7 @@
 <div class="search " style="width:60%">
 
   <div class="w3-bar" style="background-color: #116269">
-    <button class="w3-bar-item w3-black " ><i class="fa fa-home w3-margin-right"></i>Rent House</button>
+    <button class="w3-bar-item " ><i class="fa fa-home w3-margin-right"></i>Rent House</button>
   </div>
 
   <div class="w3-container w3-white w3-padding-16">
