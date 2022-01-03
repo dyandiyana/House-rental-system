@@ -87,20 +87,6 @@
     <button type="submit" onclick="myFunction(); return false" class="button button1" name="submit" ><a href="tenant-updateProfile.jsp">UPDATE</a></button>
     <button type="submit" class="button button1" name="submit" onclick="document.getElementById('id01').style.display='block'"><a href="#">DELETE</a></button>
 
-    <div id="id01" class="modal">
-        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <form class="modal-content" action="/action_page.php">
-            <div class="container">
-                <h1 align="center">Delete Account</h1>
-                <p align="center">Are you sure you want to delete your account?</p>
-
-                <div class="clearfix" align="center">
-                    <button type="button" class="deletebtn">Yes</button>
-                    <button type="button" class="cancelbtn">No</button>
-                </div>
-            </div>
-        </form>
-    </div>
 </div>
 </body>
 </html>
