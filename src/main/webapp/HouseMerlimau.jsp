@@ -125,7 +125,7 @@
 
                     </ul>
 
-                    <a href="#" class="button">Book Now</a>
+                    <a href="tenant-createBooking.jsp" class="button">Book Now</a>
                 </div>
 
             </div>
