@@ -27,7 +27,6 @@
   <div class="w3-container w3-white w3-padding-16" style="border-radius: 0px 0px 5px 5px;">
 
     <div style="margin-top:-20px;">
-      <h3>Book house with us</h3>
 
       <div class="w3-threequarter	">
         <input class="w3-input w3-border" type="text" placeholder="Enter Location">
