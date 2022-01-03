@@ -82,7 +82,7 @@
             </div>
         </div>
       
-        <button type="submit" class="button button1" name="submit" ><a href ="tenant-viewProfile.jsp">Back</a></button>
+        <button type="submit" class="button button2" name="submit" ><a href ="tenant-viewProfile.jsp">Back</a></button>
         <button type="submit" class="button button1" name="submit" ><a href ="tenant-viewProfile.jsp">Submit</a></button>
 
     </div>
