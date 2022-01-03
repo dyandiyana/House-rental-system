@@ -37,7 +37,7 @@
 
 </style>
 <body class="w3-light-grey">
-    <%@include file="Menu.html"%>
+    <%@include file="tenant-navbar.html"%>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">

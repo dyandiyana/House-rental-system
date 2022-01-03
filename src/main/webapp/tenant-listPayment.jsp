@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<%@include file="Menu.html"%>
+<%@include file="tenant-navbar.html"%>
 
 <div class="container">
     <table id = "myTable">

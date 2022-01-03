@@ -17,7 +17,7 @@
 
 <body class="w3-light-blue">
 
-<%@include file="Menu.html"%>
+<%@include file="tenant-navbar.html"%>
 
 <div class="container">
     <table id = "myTable">

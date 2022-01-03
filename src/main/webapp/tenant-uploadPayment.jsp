@@ -17,7 +17,7 @@
 
 <body>
 
-<%@include file="Menu.html"%>
+<%@include file="tenant-navbar.html"%>
 
 <div class="container">
     <h3>MONTHLY PAYMENT</h3>

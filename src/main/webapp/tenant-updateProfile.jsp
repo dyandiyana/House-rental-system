@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<%@include file="Menu.html"%>
+<%@include file="tenant-navbar.html"%>
 
 
 <form action="" method="POST">

@@ -69,7 +69,7 @@
 
 
 <body class="w3-light-grey">
-<%@include file="Menu.html"%>
+<%@include file="tenant-navbar.html"%>
 
 
 <!-- House -->
