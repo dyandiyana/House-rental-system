@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="house.css">
 
 
-<body class="w3-light-grey">
+<body class="w3-light-blue">
 
 <%@include file="Menu.html"%>
 

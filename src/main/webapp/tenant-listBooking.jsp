@@ -15,7 +15,7 @@
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="w3-light-blue">
 
 <%@include file="Menu.html"%>
 
