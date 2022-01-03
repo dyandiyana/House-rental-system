@@ -81,9 +81,9 @@
                 <input type="text" name="PhoneNumber" placeholder="Enter your phone number" value="0195183243">
             </div>
         </div>
-
-        <button type="submit" class="button button1" name="submit" ><a href ="tenant-viewProfile.jsp">Submit</a></button><br><br>
-        <button type="submit" class="button button1" name="submit" ><a href ="tenant-viewProfile.jsp">Back</a></button><br><br>
+      
+        <button type="submit" class="button button1" name="submit" ><a href ="tenant-viewProfile.jsp">Back</a></button>
+        <button type="submit" class="button button1" name="submit" ><a href ="tenant-viewProfile.jsp">Submit</a></button>
 
     </div>
 </form>
