@@ -38,7 +38,7 @@
             </div>
         </div>
         <p>Don't have an account?</p>
-        <button type="submit" class="button button1" name="submit" ><a href ="House.jsp">Login</a></button>
+        <button type="submit" class="button button1" name="submit" ><a href ="tenant-homepage.jsp">Login</a></button>
 
         <button type="submit" class="button2 button1 " name="submit" ><a href ="tenant-createProfile.jsp">Sign up</a></button><br><br>
 
