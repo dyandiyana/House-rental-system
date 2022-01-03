@@ -86,6 +86,7 @@
 
     <button type="submit" onclick="myFunction(); return false" class="button button1" name="submit" ><a href="tenant-updateProfile.jsp">UPDATE</a></button>
     <button type="submit" class="button button1" name="submit" onclick="document.getElementById('id01').style.display='block'"><a href="#">DELETE</a></button>
+    <button type="submit" class="w3-button w3-block" onclick="myFunction(); return false" class="button button1" name="submit"  >Delete</button>				
 
   
     <script type="text/javaScript">
