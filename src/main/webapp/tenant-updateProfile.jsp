@@ -83,6 +83,8 @@
         </div>
 
         <button type="submit" class="button button1" name="submit" ><a href ="tenant-viewProfile.jsp">Submit</a></button><br><br>
+        <button type="submit" class="button button1" name="submit" ><a href ="tenant-viewProfile.jsp">Back</a></button><br><br>
+
     </div>
 </form>
 </body>
