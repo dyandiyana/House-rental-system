@@ -27,7 +27,7 @@
                 <label style="">Username</label>
             </div>
             <div class="col-75">
-                <input type="text" name="email" placeholder="Enter your username" value="">
+                <input type="text" name="username" placeholder="Enter your username" value="">
             </div></div>
         <div class="row">
             <div class="col-25">
@@ -38,7 +38,7 @@
             </div>
         </div>
         <p>Don't have an account?</p>
-        <button type="submit" class="button button1" name="submit" ><a href ="Admin-listhouse.jsp">Login</a></button>
+        <button type="submit" class="button button1" name="submit" ><a href ="admin-listlandlord.jsp">Login</a></button>
 
         <button type="submit" class="button2 button1 " name="submit" ><a href ="tenant-createProfile.jsp">Sign up</a></button><br><br>
 
