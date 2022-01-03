@@ -17,6 +17,7 @@
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
+
 }
 .navbar .icon {
     float: left;
@@ -24,9 +25,12 @@
 
 }
 
+
+
 .dropdwn {
     float: right;
     overflow: hidden;
+    display: inline-block;
 }
 
 .dropdwn .dropbtn {
