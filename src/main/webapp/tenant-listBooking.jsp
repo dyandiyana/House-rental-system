@@ -15,7 +15,7 @@
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 
-<body class="w3-light-blue">
+<body>
 
 <%@include file="tenant-navbar.html"%>
 
