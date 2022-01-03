@@ -17,7 +17,7 @@
 
 <body >
 <div class="header">
-    <p>UITM JASIN NON-RESIDENT HOUSE RENTAL SYSTEM</p>
+    <p>UiTM JASIN NON-RESIDENT HOUSE RENTAL SYSTEM</p>
 </div>
 <form action="" method="POST">
     <div class="container">
