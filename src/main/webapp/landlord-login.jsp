@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: TOSHIBA
   Date: 3/1/2022
-  Time: 1:16 PM
+  Time: 1:33 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,7 +11,7 @@
 <head>
     <title>HOUSE RENTAL SYSTEM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tenant-login.css">
+    <link rel="stylesheet" href="landlord-login.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 
@@ -21,7 +21,7 @@
 </div>
 <form action="" method="POST">
     <div class="container">
-        <h2>TENANT LOGIN</h2>
+        <h2>LANDLORD LOGIN</h2>
         <div class="row">
             <div class="col-25">
                 <label style="">Username</label>
@@ -34,13 +34,13 @@
                 <label>Password</label>
             </div>
             <div class="col-75">
-                <input type="password" name="lecturerPassword" placeholder="Your password" value="">
+                <input type="password" name="landlordPassword" placeholder="Your password" value="">
             </div>
         </div>
         <p>Don't have an account?</p>
-        <button type="submit" class="button button1" name="submit" ><a href ="House.jsp">Login</a></button>
+        <button type="submit" class="button button1" name="submit" ><a href ="#">Login</a></button>
 
-        <button type="submit" class="button2 button1 " name="submit" ><a href ="tenant-createProfile.jsp">Sign up</a></button><br><br>
+        <button type="submit" class="button2 button1 " name="submit" ><a href ="landlord-createProfile.jsp">Sign up</a></button><br><br>
 
     </div>
 </form>
