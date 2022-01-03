@@ -33,7 +33,7 @@
 
 <div class="column">
     <div class="container1">
-        <a href="landlord-createProfile.jsp">
+        <a href="landlord-login.jsp">
             <h3>LECTURER</h3>
         </a>
     </div>
@@ -41,7 +41,7 @@
 
 <div class="column">
     <div class="container2">
-        <a href="admin-createProfile.jsp">
+        <a href="admin-login.jsp">
             <h3>ADMIN</h3>
         </a>
     </div>
