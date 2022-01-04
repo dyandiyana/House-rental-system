@@ -28,14 +28,14 @@ a:active { color: black; text-decoration: none; }
 {
     margin-top:70px;
     margin-left:300px;
-
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 
 .dropdown
 {
-    background-color: black;
-    color: white;
+    background-color: #90bcc2 ;
+    color: black;
     padding:5px;
     text-align: center;
     border-radius: 5px;
