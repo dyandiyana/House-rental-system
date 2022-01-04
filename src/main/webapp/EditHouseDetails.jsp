@@ -11,7 +11,7 @@
 <%@page import="java.util.Date"%>
 <%@ page import="java.text.SimpleDateFormat" %>
 <html>
-<style><%@include file="/WEB-INF/EHD.css"%></style>
+<style><%@include file="/EHD.css"%></style>
 <head>
     <%@include file="Menu.html"%>
 </head>

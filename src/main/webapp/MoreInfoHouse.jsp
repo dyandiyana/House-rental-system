@@ -16,7 +16,7 @@ Example 1: include bootstrap
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<style><%@include file="/WEB-INF/MIH.css"%></style>
+<style><%@include file="/MIH.css"%></style>
 <head>
     <%@include file="Menu.html"%>
 </head>
