@@ -16,9 +16,8 @@ Example 1: include bootstrap
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<%@include file="landlord-navbar.html"%>
 <style><%@include file="landlord-displayMoreInfo.css"%></style>
-<head>
-    <%@include file="landlord-navbar.html"%>
 </head>
 <body>
 <div class="topic">RUMAH BANGLO TAMAN PERMAI INDAH</div>
@@ -138,11 +137,15 @@ Example 1: include bootstrap
     }
 
     function edit(){
-        location.href = "EditHouseDetails.jsp";
+        location.href = "landlord-updateHouseDetails.jsp";
     }
 
     function popw () {
         window.open('http://localhost:8088/nonresident_war_exploded/pic/k2.jpg','popup','width=600,height=600'); return false;
+    }
+
+    function booking(){
+        location.href = "landlord-displayBookingList.css";
     }
 </script>
 
