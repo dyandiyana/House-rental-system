@@ -68,11 +68,11 @@
 <script type="text/javascript">
     <%--kene ada sql untuk specifickan id rumah mana nak display dalam page ni--%>
     function x() {
-        location.href = "MoreInfoHouse.jsp";
+        location.href = "landlord-displayMoreInfo.jsp";
     }
 
     function z() {
-        location.href = "HouseDetails.jsp";
+        location.href = "landlord-createHouseDetails.jsp";
     }
 </script>
 
