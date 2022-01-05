@@ -11,9 +11,9 @@
 <%@page import="java.util.Date"%>
 <%@ page import="java.text.SimpleDateFormat" %>
 <html>
-<style><%@include file="/WEB-INF/HD.css"%></style>
+<style><%@include file="/WEB-INF/landlord-UpdateHouseDetails.css"%></style>
 <head>
-    <%@include file="Menu.html"%>
+    <%@include file="landlord-navbar.html"%>
 </head>
 <body>
 <%
@@ -25,12 +25,14 @@
 
 %>
 <div class="topic">
-    <p>HOUSE INFORMATION APPLICATION</p>
+    <p>UPDATE HOUSE INFORMATION</p>
 </div>
 
 <div class="tintedbg">
-    <form name="HouseInfoForm" method="post" action="HouseDetails.jsp"  enctype = "multipart/form-data">
+    <form name="HouseInfoForm" method="post" action="landlord-createHouseDetails.jsp" enctype = "multipart/form-data">
     <br/>
+<%--        <input type="hidden" name="houseid" value="<%=resultSet.getString("id") %>">--%>
+<%--        <input type="text" name="houseid" value="<%=resultSet.getString("id") %>">--%>
     <br/>
         <div class="form-row">
             <div class="col-7"></div>
@@ -175,8 +177,9 @@
         </div>
 
     <br/>
-        <div class="sbt mx-auto">
-            <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+        <div class="sbt mx-auto col-md">
+            <button type="button" class="Cancelbtn btn-md" onclick="cn()">Cancel</button>
+            <button type="button" class="btn btn-primary btn-md">Update</button>
         </div>
     <br/>
     </form>
@@ -440,19 +443,12 @@
         }
     })
 
+    function cn(){
+        confirm("Do you really want to go back? Your update will not be saved.");
+        location.href = "landlord-displayMoreInfo.jsp";
+    }
 
 </script>
 
-<% //scriplet
-    String mydis = request.getParameter("hName");
-
-    if(mydis == null){
-
-    }
-    else{
-        session.setAttribute("HName",request.getParameter("hName"));
-        session.setAttribute("HPic",request.getParameter("hPic"));
-    }
-%>
 </body>
 </html>
