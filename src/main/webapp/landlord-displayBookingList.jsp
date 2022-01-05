@@ -14,7 +14,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 
-<style><%@include file="/WEB-INF/landlord-displayBookingList.css"%></style>
+<style><%@include file="landlord-displayBookingList.css"%></style>
 <head>
     <title>Title</title>
 </head>

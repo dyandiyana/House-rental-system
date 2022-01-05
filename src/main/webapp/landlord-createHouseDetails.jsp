@@ -11,7 +11,7 @@
 <%@page import="java.util.Date"%>
 <%@ page import="java.text.SimpleDateFormat" %>
 <html>
-<style><%@include file="/WEB-INF/landlord-createHouseDetails.css"%></style>
+<style><%@include file="landlord-createHouseDetails.css"%></style>
 <head>
     <%@include file="landlord-navbar.html"%>
 </head>
@@ -29,7 +29,7 @@
 </div>
 
 <div class="tintedbg">
-    <form name="HouseInfoForm" method="post" action="landlord-createHouseDetails.jsp" enctype = "multipart/form-data">
+    <form name="HouseInfoForm" method="post" action="HouseDetails.jsp"  enctype = "multipart/form-data">
     <br/>
     <br/>
         <div class="form-row">

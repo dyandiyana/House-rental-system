@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <html>
-<style><%@include file="/WEB-INF/landlord-displayHouseList.css"%></style>
+<style><%@include file="landlord-displayHouseList.css"%></style>
 <head>
     <%@include file="landlord-navbar.html"%>
 </head>
@@ -68,11 +68,11 @@
 <script type="text/javascript">
     <%--kene ada sql untuk specifickan id rumah mana nak display dalam page ni--%>
     function x() {
-        location.href = "landlord-displayMoreInfo.jsp";
+        location.href = "MoreInfoHouse.jsp";
     }
 
     function z() {
-        location.href = "landlord-createHouseDetails.jsp";
+        location.href = "HouseDetails.jsp";
     }
 </script>
 
