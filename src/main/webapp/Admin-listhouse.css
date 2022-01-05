@@ -14,18 +14,13 @@ body {
 
 }
 
-.custom-select
-{
-    position: relative;
-}
-
 .search
 {
     margin-top:70px;
     width: 60%;
-
-
-
+    margin-top:70px;
+    margin-left:300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .search button
@@ -75,12 +70,7 @@ a:active { color: black; text-decoration: none; }
     position: relative;
 }
 
-.search
-{
-    margin-top:70px;
-    margin-left:300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
+
 
 
 .dropdown
