@@ -34,7 +34,7 @@
 <div class="column">
     <div class="container1">
         <a href="landlord-login.jsp">
-            <h3>LECTURER</h3>
+            <h3>LANDLORD</h3>
         </a>
     </div>
 </div>
