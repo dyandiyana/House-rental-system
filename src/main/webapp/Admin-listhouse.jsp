@@ -13,6 +13,7 @@
 
 <body>
 
+<%@include file="admin-navbar.html"%>
 
 <div class="search ">
 
