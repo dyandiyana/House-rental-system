@@ -22,7 +22,7 @@ form.example button {
     float: left;
     width: 8%;
     padding: 10px;
-    background: #13a10e;
+    background: #34e42e;
     color: white;
     font-size: 17px;
     border: 1px solid rgb(195, 192, 192);
@@ -32,7 +32,7 @@ form.example button {
 }
 
 form.example button:hover {
-    background: #107c0c;
+    background: #1bc718;
 }
 
 form.example::after {

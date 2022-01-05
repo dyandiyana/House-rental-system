@@ -1,20 +1,23 @@
-
-
 <!DOCTYPE html>
 
 <html>
+
 <head>
-  <link rel="stylesheet" href="Admin-listhouse.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Admin-listhouse.css">
+
 </head>
 
-<%@include file="admin-navbar.html"%>
 
-<div class="search " style="width:60%">
+
+<body>
+
+
+<div class="search ">
 
   <div class="w3-bar" style="background-color: #19747c;border-radius: 5px 5px 0px 0px;">
-    <button class="w3-bar-item"  style="background-color: #19747c; color: white;" ><i class="fa fa-home w3-margin-right" style="color: white;"></i>Rent House</button>
+    <span class="w3-bar-item"  style="background-color: #19747c; color: white;" ><i class="fa fa-home w3-margin-right" style="color: white;"></i>Rent House</span>
   </div>
 
   <div class="w3-container w3-white w3-padding-16" style="border-radius: 0px 0px 5px 5px;">
@@ -25,10 +28,10 @@
         <input class="w3-input w3-border" type="text" placeholder="Enter Location">
       </div>
 
-      <button class="w3-button w3-dark-grey" style="width:150px; margin-top: 20px;">Search</button>
+      <button type="submit" class="searchbutton">Search</button>
     </div><br>
 
-    <select  class="dropdown" style="width:140px; ">
+    <select  class="dropdown" style="width:140px; color: black;background-color: #90bccc; border: none; ">
       <option value=""disable selected>Locations</option>
       <option value="Kuala Lumpur">Taman Lipat Kajang</option>
       <option value="Selangor">Taman Merlimau</option>
@@ -47,7 +50,7 @@
 
     <select class="dropdown">
       <option value=""disable selected>Price (max)</option>
-      <option value="no min">No max</option>
+      <option value="no max">No max</option>
       <option value="RM100">RM100</option>
       <option value="RM200">RM200</option>
       <option value="RM500">RM500</option>
@@ -56,26 +59,27 @@
 
     <select class="dropdown">
       <option value=""disable selected>Rooms</option>
-      <option value="no min">1</option>
-      <option value="RM100">2</option>
-      <option value="RM200">3</option>
-      <option value="RM500">4</option>
-      <option value="RM1000">5</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
     </select>
 
     <select class="dropdown">
       <option value=""disable selected>Bathooms</option>
-      <option value="no min">1</option>
-      <option value="RM100">2</option>
-      <option value="RM200">3</option>
-      <option value="RM500">4</option>
-      <option value="RM1000">5</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
     </select>
 
 
 
   </div>
 </div>
+
 
 <div class="container">
 
