@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<<%@include file="tenant-navbar.html"%>
+<%@include file="tenant-navbar.html"%>
 
 
 
