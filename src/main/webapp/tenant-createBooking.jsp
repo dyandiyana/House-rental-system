@@ -16,22 +16,8 @@
 </head>
 
 <body>
-<div class="navbar">
-    <p>UiTM JASIN NON-RESIDENT HOUSE RENTAL SYSTEM</p>
-    <a href="#">LOGOUT</a>
-    <a href="#">PROFILE</a>
-    <a href="tenant-listPayment.jsp">PAYMENT</a>
-    <div class="dropdown">
-        <button class="dropbtn" >BOOKING
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">BOOKING FORM</a>
-            <a href="#">LIST BOOKING</a>
-        </div>
-    </div>
-    <a href="#" >HOME</a>
-</div>
+<<%@include file="tenant-navbar.html"%>
+
 
 
 <form action="" method="POST">
