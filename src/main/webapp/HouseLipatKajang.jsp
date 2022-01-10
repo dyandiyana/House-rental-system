@@ -106,7 +106,7 @@
     <p class="w3-large"><b>3 </b><i class="fa fa-bed"></i> <b>   3 </b><i class="fa fa-bath"></i> </i> <b>   1 </b><i class="fa fa-wifi"></i></p>
 
 
-    <div class="room-features spacer">
+     <div class="room-features spacer">
       <div class="row">
         <div class="col-sm-12 col-md-5">
 
