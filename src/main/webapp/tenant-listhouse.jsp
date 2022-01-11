@@ -68,7 +68,7 @@
     padding-top: 25%;
     background-color: aliceblue;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    width: 30cm;
+    width: 40cm;
     min-height: 100%;
     text-align:justify;
     margin-top:7%;
@@ -184,8 +184,7 @@
     background : #C1C1C1;
     }
 
-    .C button__text,
-    .C button__icon {
+    .C button__text,.C button__icon {
     align-items:center;
     padding : 1px 10px;
     height:100%;
