@@ -29,6 +29,39 @@ justify-content: center;
 height: 100%;
 font-size: 100%;
 
+}
+
+
+
+.dropdown option
+{
+border: none;
+}
+
+
+a:link { color: black; text-decoration: none; }
+a:visited { color: black; text-decoration: none; }
+a:hover { color: black; text-decoration: none; }
+a:active { color: black; text-decoration: none; }
+
+.custom-select
+{
+position: relative;
+}
+
+
+
+
+.dropdown
+{
+padding:5px;
+text-align: center;
+border-radius: 5px;
+margin-bottom:-70px;
+}
+
+
+
 
 .container{
 border-radius: 10px;
