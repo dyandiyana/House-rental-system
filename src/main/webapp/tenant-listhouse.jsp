@@ -34,6 +34,133 @@
     }
 
 
+    .container{
+        border-radius: 10px;
+        padding-top: 25%;
+        background-color: aliceblue;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        width: 30cm;
+        min-height: 100%;
+        text-align:justify;
+        margin-top:7%;
+        margin-left: 200px;
+        padding:20px;
+
+
+        display: flex;
+        align-items:baseline;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .Hcont {
+        background-color: white;
+        height: 380px;
+        width: 300px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        padding: 0px 0px 10px 0px;
+        margin: 20px 20px 20px 20px;
+        text-decoration: none;
+    }
+
+
+
+    .housepic{
+        background-color: grey;
+        width: 100%;
+        height: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border-radius: 10px 10px 0px 0px;
+
+    }
+
+    .houseName{
+
+        padding-left: 10px;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .status
+    {
+        color: rgb(27, 189, 27);
+    }
+
+    .fa-bed, .fa-bath, .fa-wifi
+    {
+        opacity: 0.5;
+    }
+
+
+
+    .MyLink{
+        text-align: center;
+    }
+
+    .MyLink button{
+        background-color: white;
+        border:none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: cornflowerblue;
+        width: 5cm;
+        height:1cm;
+    }
+
+    .MyLink button:hover{
+        background-color: #007bff;
+        color: white;
+        border: none;
+        width: 5cm;
+        height:1cm;
+    }
+
+    .MyLink button:active{
+        background-color: #007bff;
+        color: white;
+        border: none;
+        width: 5cm;
+        height:1cm;
+    }
+
+
+
+
+    .C button{
+        bottom: 20px;
+        position: fixed;
+        right: 10px;
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        width: 90px;
+        height: 90px;
+        color: #000000;
+        border:none;
+        border-radius: 49px;
+        box-shadow: 8px 8px 7px 0px rgba(0, 0, 0, 0.25);
+        cursor:pointer;
+        overflow: hidden;
+        z-index: 3;
+    }
+
+    .C button:hover{
+        background : #E1D7D7;
+    }
+
+    .C button:active {
+        background : #C1C1C1;
+    }
+
+    .C button__text,
+    .C button__icon {
+        align-items:center;
+        padding : 1px 10px;
+        height:100%;
+    }
 
 </style>
 <body class="w3-light-grey">
@@ -158,6 +285,49 @@
 <!-- End page content -->
 
 
+
+    <div class="container">
+
+
+
+        <div class="Hcont" >
+            <a href="">
+                <div class="housepic"></div>
+                <div class="houseName">
+                    <p class="name">Rumah Banglo Taman Permai Indah</p>
+                    <p class="price">RM800</p>
+                    <p ><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
+                    <p class="status">Available</p>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="Hcont">
+            <a href="">
+                <div class="housepic"></div>
+                <div class="houseName">
+                    <p class="name">Rumah Teres 22</p>
+                    <p class="price">RM800</p>
+                    <p ><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
+                    <p class="status">Available</p>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="Hcont">
+            <a href="">
+                <div class="housepic"></div>
+                <div class="houseName">
+                    <p class="name">Rumah Minangkabau</p>
+                    <p class="price">RM800</p>
+                    <p ><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
+                    <p class="status">Available</p>
+
+                </div>
+            </a>
+        </div>
 
 
 
