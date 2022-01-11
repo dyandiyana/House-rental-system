@@ -239,49 +239,7 @@
 </header>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:1532px;">
 
-    <br><h3 style="padding-left:20px;">Houses</h3>
-
-    <div class="w3-row-padding w3-padding-16">
-
-        <div class="w3-third w3-margin-bottom">
-            <img src="1.PNG" style="width:100%">
-            <div class="w3-container w3-white">
-                <h3>Rumah Sewa Lipat Kajang</h3>
-                <h6 class="w3-opacity">RM150</h6>
-                <p>Available</p>
-                <p class="w3-large"><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
-                <a href="HouseLipatKajang.jsp" class="w3-button w3-block w3-black w3-margin-bottom">View More</a>
-            </div>
-        </div>
-
-        <div class="w3-third w3-margin-bottom">
-            <img src="2.jpg" alt="Norway" style="width:100%"  height="290">
-            <div class="w3-container w3-white">
-                <h3>Rumah Sewa Taman Merlimau</h3>
-                <h6 class="w3-opacity">RM800</h6>
-                <p>Available</p>
-                <p class="w3-large"><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
-                <a href="HouseMerlimau.jsp" class="w3-button w3-block w3-black w3-margin-bottom">View More</a>
-            </div>
-
-        </div>
-
-        <div class="w3-third w3-margin-bottom">
-            <img src="lipatkajang.jpg" alt="Norway" style="width:100%"  height="290">
-            <div class="w3-container w3-white">
-                <h3>Rumah Sewa Seri Mendapat</h3>
-                <h6 class="w3-opacity">RM900</h6>
-                <p>Not available</p>
-                <p class="w3-large"><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
-                <a href="houses.html" class="w3-button w3-block w3-black w3-margin-bottom">View More</a>
-            </div>
-        </div>
-    </div> <br>
-
-
-</div>
 <!-- End page content -->
 
 
