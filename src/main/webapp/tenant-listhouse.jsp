@@ -68,11 +68,11 @@
     padding-top: 25%;
     background-color: aliceblue;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    width: 40cm;
-    min-height: 100%;
-    text-align:justify;
-    margin-top:7%;
-    margin-left: 200px;
+        width: 39cm;
+        min-height: 100%;
+        text-align:justify;
+        margin-top:5%;
+        margin-left: 19px;
     padding:20px;
 
 
