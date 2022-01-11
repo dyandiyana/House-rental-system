@@ -1,4 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 
 <!DOCTYPE html>
 <html>
@@ -32,6 +34,90 @@
         border-radius: 5px;
         margin-bottom:-70px;
     }
+
+
+    *{
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    body {
+        background-color: #c7dde0;
+        background-size: cover;
+        justify-content: center;
+        height: 100%;
+        font-size: 100%;
+
+    }
+
+    .search
+    {
+        margin-top:70px;
+        width: 60%;
+        margin-top:70px;
+        margin-left:300px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .search button
+    {
+        border: none;
+        height: 40px;
+        background-color: #34e42e;
+        width:150px;
+        margin-top: 20px;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .search button:hover
+    {
+
+        background: #1bc718;
+
+    }
+
+
+
+    .search .dropdown
+    {
+        background-color: #90bccc ;
+        color: black;
+        border: none;
+        padding:5px;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom:-70px;
+        margin-right: 15px;
+    }
+
+    .dropdown option
+    {
+        border: none;
+    }
+
+
+    a:link { color: black; text-decoration: none; }
+    a:visited { color: black; text-decoration: none; }
+    a:hover { color: black; text-decoration: none; }
+    a:active { color: black; text-decoration: none; }
+
+    .custom-select
+    {
+        position: relative;
+    }
+
+
+
+
+    .dropdown
+    {
+        padding:5px;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom:-70px;
+    }
+
+
 
 
     .container{
@@ -160,6 +246,7 @@
         align-items:center;
         padding : 1px 10px;
         height:100%;
+    }
     }
 
 </style>
