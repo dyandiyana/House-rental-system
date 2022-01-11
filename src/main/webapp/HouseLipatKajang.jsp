@@ -93,8 +93,8 @@
     <div class="images">
       <div class="w3-content w3-section" style="max-width:1000px">
         <img class="mySlides" src="1.PNG" style="width:80%">
-        <img class="mySlides" src="ruang1.PNG" style="width:80%">
-        <img class="mySlides" src="toilet1.jpg" style="width:80%">
+        <img class="mySlides" src="tenant-houseMerlimau2.PNG" style="width:80%">
+        <img class="mySlides" src="tenant-houseMerlimau3.jpg" style="width:80%">
       </div>
     </div>
 

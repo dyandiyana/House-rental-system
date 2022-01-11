@@ -192,9 +192,9 @@
 <div class="Hcont" >
     <div class="housepic">
 
-        <img class="mySlides" src="2.jpg" >
-        <img class="mySlides" src="ruang1.PNG" >
-        <img class="mySlides" src="toilet1.jpg" >
+        <img class="mySlides" src="tenant-houseMerlimau1.jpg" >
+        <img class="mySlides" src="tenant-houseMerlimau2.PNG" >
+        <img class="mySlides" src="tenant-houseMerlimau3.jpg" >
     </div>
 
     <div class="houseName">
