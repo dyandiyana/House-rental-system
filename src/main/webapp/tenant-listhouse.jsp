@@ -278,10 +278,10 @@
 
 
     <div class="Hcont" >
-        <a href="">
+        <a href="tenant-houseMerlimau.jsp">
             <div class="housepic"></div>
             <div class="houseName">
-                <p class="name">Rumah Banglo Taman Permai Indah</p>
+                <p class="name">Rumah Sewa Taman Merlimau</p>
                 <p class="price">RM800</p>
                 <p ><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
                 <p class="status">Available</p>
