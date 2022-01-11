@@ -291,10 +291,10 @@
     </div>
 
     <div class="Hcont">
-        <a href="">
+        <a href="tenant-houseLipatKajang.jsp">
             <div class="housepic"></div>
             <div class="houseName">
-                <p class="name">Rumah Teres 22</p>
+                <p class="name">Rumah Sewa Taman Lipat Kajang</p>
                 <p class="price">RM800</p>
                 <p ><i class="fa fa-bed"></i> <i class="fa fa-bath"></i> </i> <i class="fa fa-wifi"></i></p>
                 <p class="status">Available</p>
