@@ -46,6 +46,8 @@
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
+
             <td><button type="submit" class="button button1" name="submit" ><a href ="tenant-updateBooking.jsp">Update</a></button><br><br>
                 <button type="submit" class="button button1" name="submit" ><a href ="#">Delete</a></button><br><br>
             </td>
