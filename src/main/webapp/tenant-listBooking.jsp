@@ -32,6 +32,7 @@
             <th>DEPOSIT</th>
             <th>AGREEMENT </th>
             <th>APPROVAL DATE</th>
+            <th>STATUS</th>
             <th>ACTION</th>
         </tr>
 
