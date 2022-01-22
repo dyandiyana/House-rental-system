@@ -26,7 +26,7 @@
 <div class="column">
     <div class="container">
         <a href="tenant-login.jsp">
-            <h3>TENANTTT</h3>
+            <h3>TENANT</h3>
         </a>
     </div>
 </div>
